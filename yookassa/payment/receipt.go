@@ -36,14 +36,14 @@ type ReceiptItem struct {
 	//
 	// List of possible values:
 	// https://yookassa.ru/developers/payment-acceptance/receipts/54fz/yoomoney/parameters-values#payment-subject
-	PaymentSubject *PaymentSubject `json:"payment_subject,omitempty"`
+	PaymentSubject PaymentSubject `json:"payment_subject,omitempty"`
 
 	// The sign of the payment method (tag in 54 FZ — 1214) reflects the type of payment and the fact of transfer of the goods. Example: the buyer pays for the product in full and receives it immediately. In this case, you need to pass the full_payment value (full calculation).
 	//
 	// List of possible values:
 	//  for Receipts from YooKassa: https://yookassa.ru/developers/payment-acceptance/receipts/54fz/yoomoney/parameters-values#payment-mode
 	//  for third-party online sales registers: https://yookassa.ru/developers/payment-acceptance/receipts/54fz/other-services/parameters-values#payment-mode
-	PaymentMode *PaymentMode `json:"payment_mode,omitempty"`
+	PaymentMode PaymentMode `json:"payment_mode,omitempty"`
 
 	// The code of the country of origin of the goods according to the
 	// all-Russian classifier of the countries of the world
