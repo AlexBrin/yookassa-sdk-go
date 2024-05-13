@@ -3,8 +3,8 @@ package yookassa
 
 import (
 	"encoding/json"
-	yooerror "github.com/rvinnie/yookassa-sdk-go/yookassa/errors"
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/settings"
+	yooerror "github.com/AlexBrin/yookassa-sdk-go/yookassa/errors"
+	"github.com/AlexBrin/yookassa-sdk-go/yookassa/settings"
 	"io"
 	"net/http"
 )

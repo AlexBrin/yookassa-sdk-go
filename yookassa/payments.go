@@ -5,8 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	yooerror "github.com/rvinnie/yookassa-sdk-go/yookassa/errors"
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/payment"
+	yooerror "github.com/AlexBrin/yookassa-sdk-go/yookassa/errors"
 	"io"
 	"net/http"
 )
