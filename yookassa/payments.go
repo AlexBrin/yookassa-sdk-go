@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	yooerror "github.com/AlexBrin/yookassa-sdk-go/yookassa/errors"
+	yoopayment "github.com/AlexBrin/yookassa-sdk-go/yookassa/payment"
 	"io"
 	"net/http"
 )
