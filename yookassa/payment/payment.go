@@ -70,6 +70,8 @@ type Payment struct {
 	// Status of receipt delivery.
 	ReceiptRegistration Status `json:"receipt_registration,omitempty"`
 
+	Receipt Receipt `json:"receipt,omitempty"`
+
 	// Any additional data you might require for processing payments
 	// (for example, your internal order ID), specified as a “key-value” pair and
 	// returned in response from YooMoney. Limitations: no more than 16 keys,
