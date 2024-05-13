@@ -16,7 +16,7 @@ type ReceiptItem struct {
 	Description string           `json:"description"`
 	Amount      yoocommon.Amount `json:"amount"`
 	VatCode     int              `json:"vat_code"`
-	Quantity    string           `json:"quantity"`
+	Quantity    int              `json:"quantity"`
 	Measure     string           `json:"measure,omitempty"`
 
 	// The fractional amount of the marked product (tag in 54 FZ — 1291).
